@@ -576,5 +576,79 @@ Our Swiper Sewction Start Here.
       margin-top: -20px;
   }
 
+/* ---------------------------------------
+Our Freelancing Section Start Here.
+------------------------------------------- */
 
-  
+.freelancing-section{
+    background-image: url(background-img01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+    margin-top: 50px;
+    background-attachment: fixed;
+    position: relative;
+    transition: all 0.7s linear;
+    /* text-align: center; */
+}
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+}
+.container h2{
+    font-size: 3.4rem;
+    color: var(--white);
+}
+.container p{
+    margin-top: -20px;
+}
+.container h2 span{
+    color: greenyellow;
+}
+.freelancing-section .container{
+    position: relative;
+}
+
+
+
+/* ---------------------------------
+Our Contact Section Start Here.
+------------------------------------ */
+#section06{
+    margin-top: 50px;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.username-email{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 80px;
+}
+.subject-text{
+    /* margin-left: -223px; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 507px;
+}
+#textarea{
+    margin-top: 20px;
+}
+#form input,#form textarea{
+    width: 100%;
+    padding: 20px;
+    border: 2px solid var(--para);
+    border-radius: 5px;
+}
+.submit-btn{
+    margin-top: 20px;
+}
