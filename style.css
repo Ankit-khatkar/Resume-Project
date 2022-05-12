@@ -1,5 +1,6 @@
 body{
     /* color: var(--white); */
+    font-family: sans-serif;
 }
 
 :root{
@@ -651,4 +652,66 @@ Our Contact Section Start Here.
 }
 .submit-btn{
     margin-top: 20px;
+}
+
+/* --------------------------------------
+Our Footer Section Start Here.
+------------------------------------------- */
+
+#footer{
+    background-color: var(--para);
+    height: 550px;
+    color: #fff;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.grid-four-coloumn{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* background-color: green; */
+    margin-left: 100px;
+}
+.grid-four-coloumn h3{
+    font-size: 22px;
+}
+.grid-four-coloumn h4{
+    font-size: 12px;
+}
+.grid-four-coloumn div h4 a:hover{
+    color: black;
+}
+#footer-hr{
+    width: 85%;
+}
+.grid-four-coloumn h4 a{
+    color: #fff;
+}
+.footer02{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 100px;
+}
+#footer-search{
+    height: 40px;
+    width: 247px;
+    border: 2px solid var(--helper);
+    border-radius: 5px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-left: 7px;
+
+}
+#copyright{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.6rem;
+
+}
+#copyright div a{
+    color: #fff;
+}
+#copyright div a:hover{
+    color: black;
 }
